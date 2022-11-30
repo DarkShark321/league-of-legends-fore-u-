@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo_text a {
+    font-size: 30px;
+    font-family: 'Roboto condensend', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color:black;
+}
+
+ #nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#nav ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 100;
+    color :gray,
+}
+
+@media (min-width : 900px) {
+    #nav ul li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+#nav ul a {
+    color: gray;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    cursor:pointer; 
+    color: #00AA55;
+}
+
+#slider {
+        width: 100%;
+    } 
+
+#mitte {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#mitte h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    color:#00AA55;
+    font-weight: 300;
+}
+
+#mitte p img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+}
+
+#unten  {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 15px;
+    background:rgb(173, 21, 178)
+}
+
+#unten p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#social_icons a {
+    padding:10px;
+    font-weight: 300;
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+}  
+
+#social_yt {
+    background-color: rgb(205, 24, 24);
+}
+
+#social_ig {
+    background-color:rgb(246, 13, 83);
+}
+
+
+#social_tt {
+    background-color:rgb(4, 4, 4)
+}
+
+
+
+
+
+
+

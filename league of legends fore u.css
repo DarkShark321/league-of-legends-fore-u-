@@ -19,7 +19,7 @@ p {
     font-family: 'Roboto condensend', sans-serif;
     font-weight: 100;
     text-decoration: none;
-    color:black;
+    color:rgba(213, 17, 99, 0.642);
 }
 
  #nav ul {
@@ -33,7 +33,7 @@ p {
     padding-left: 5px;
     padding-right: 5px;
     font-weight: 100;
-    color :gray,
+    color :rgb(146, 109, 109),
 }
 
 @media (min-width : 900px) {
@@ -44,13 +44,8 @@ p {
 }
 
 #nav ul a {
-    color: gray;
+    color: rgb(197, 9, 9);
     text-decoration: none;
-}
-
-#nav ul li a:hover {
-    cursor:pointer; 
-    color: #00AA55;
 }
 
 #slider {
